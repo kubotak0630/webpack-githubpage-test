@@ -29,7 +29,7 @@ let app = new Vue({
   data: {
     message: 'Hello Vue.js',
     showName: '久保田',
-    firstNameFlg: true,
+    firstNameFlg: false,
     firstName: '耕司',
     lastName: '久保田',
     

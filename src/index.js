@@ -1,5 +1,7 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
+import './css/style.css'  //css-loaderとstyle-loaderがloaderで適用される
+
 
 const axios = require('axios');
 //import Vue from 'vue';

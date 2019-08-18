@@ -35,12 +35,17 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
+        
       }
 
     ]
   },
+  plugins: [
+  ],
   devServer: {
     contentBase: outputPath
-  }
+  },
+  devtool: 'source-map'  //デバッグがオリジナルソースでできる
+
   
 }

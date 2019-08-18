@@ -1,14 +1,13 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
-import './css/style.css'  //css-loaderとstyle-loaderがloaderで適用される
-
+import './css/style.css';  //css-loaderとstyle-loaderがloaderで適用される
+import hoge_const from './src_ext.js'
 
 const axios = require('axios');
-//import Vue from 'vue';
 const elem1 = document.querySelector('#hoge1');
 let a = 10;
 
-elem1.innerHTML = `a: ${a+100}`;
+elem1.innerHTML = `export_default: ${hoge_const.val1}`;
 
 
 let json_data = {};

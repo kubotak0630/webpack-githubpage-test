@@ -13,8 +13,7 @@ elem1.innerHTML = `export_default: ${hoge_const.val1}`;
 let json_data = {};
 
 //jsonデータの読み込み
-//axios.get('./test.json')
-axios.get('https://github.com/kubotak0630/data_json/blob/master/test.json')
+axios.get('./test.json')
   .then(function(response) {
     json_data = response.data;
     console.log('------axios------');
